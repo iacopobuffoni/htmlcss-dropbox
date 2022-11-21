@@ -39,17 +39,87 @@ li {
 .bottom-header-box {
     width: 60vw;
     background-color: antiquewhite;
-    min-height: 200px;
+    height: 100%;
     margin: auto;
 }
 
-.bottom-header-box-left {
+.bottom-header-box-left, .img-text-box-left {
     width: 30%;
     background-color: aqua;
-    height: 400px;
+    height: 700px;
 }
 
-.bottom-header-box-right {
+.bottom-header-box-right, .img-text-box-right {
     width: 70%;
     background-color: aquamarine;
+}
+
+.mainbox {
+    width: 55vw;
+    background-color: blue;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.mainbox-header {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.plan-box {
+    justify-content: space-between;
+}
+
+.plan-offer {
+    width: 30%;
+    height: 800px;
+    background-color: wheat;
+}
+
+.contact {
+    height: 200px;
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.img-text-box {
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+.card-container {
+    width: 100%;
+    min-height: 1000px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.mainbox-midpage-title {
+    width: 100%;
+    height: 50px;
+}
+
+.card {
+    width: 30%;
+    background-color: blueviolet;
+    height: 550px;
+
+}
+
+.card-box {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.upper-box {
+    height: 50%;
+    background-color: red;
+}
+
+.lower-box {
+    height: 50%;
+    width: 100%;
 }
