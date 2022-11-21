@@ -1,0 +1,55 @@
+div {
+    border: 2px dashed black;
+}
+
+.topbar {
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+.topbar li {
+    padding: 20px 25px;
+}
+
+.topbar-left {
+    justify-content: flex-start;
+    width: 50vw;
+}
+
+.logo {
+    width: 10vw;
+}
+
+.topbar-right {
+    justify-content: flex-end;
+    width: 50vw;
+}
+
+li {
+    display: inline-block;
+}
+
+.bottom-header {
+    width: 100%;
+    margin: auto;
+    background-color: #b4d0e7;
+    height: 700px;
+}
+
+.bottom-header-box {
+    width: 60vw;
+    background-color: antiquewhite;
+    min-height: 200px;
+    margin: auto;
+}
+
+.bottom-header-box-left {
+    width: 30%;
+    background-color: aqua;
+    height: 400px;
+}
+
+.bottom-header-box-right {
+    width: 70%;
+    background-color: aquamarine;
+}
