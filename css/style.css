@@ -1,3 +1,7 @@
+.center {
+    text-align: center;
+}
+
 div {
     border: 2px dashed black;
 }
@@ -55,9 +59,6 @@ a:hover {
 .inizia, .freetrial {
     background-color: #0061ff;
     padding: 5px 12px;
-}
-
-.inizia > a, .freetrial > a {
     color: white;
 }
 
@@ -195,7 +196,7 @@ a:hover {
 }
 
 .plan-part {
-    padding: 25px 25px;
+    padding: 25px;
     
 }
 
@@ -217,16 +218,31 @@ a:hover {
 
 .plan-trial {
     background-color: #0061ff;
-    padding: 5px 30px;
+    padding: 5px 0;
     display: inline-block;
     color: white;
     width: 100%;
 }
+.plan-trial > a {
+    color: white;
+}
 
 .contact {
-    height: 200px;
+    height: 30vh;
     background-color: white;
     width: 100%;
+    margin-top: 50px;
+}
+
+.contactbox-left {
+    width: 70%;
+}
+
+.contactbox-right {
+    width: 30%;
+}
+
+#supermargin {
     margin-top: 50px;
 }
 
