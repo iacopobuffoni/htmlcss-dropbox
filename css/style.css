@@ -123,3 +123,58 @@ li {
     height: 50%;
     width: 100%;
 }
+
+.box-after-cards {
+    width: 100%;
+    background-color: orange;
+    height: 500px;
+}
+
+.sponsor-box {
+    width: 100vw;
+    height: 60vh;
+    background-color: gray;
+}
+
+.sponsor-box-left {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+}
+
+.sponsor-box-middle {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.sponsor-box-right {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+}
+
+.littlebox {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+.main-footer-box {
+    width: 100vw;
+    height: 35vh;
+    background-color: lightblue;
+}
+
+.questions {
+    width: 100vw;
+    height: 70vh;
+    background-color: bisque;
+}
+
+.links {
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+}
