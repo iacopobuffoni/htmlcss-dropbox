@@ -2,10 +2,6 @@
     text-align: center;
 }
 
-div {
-    border: 2px dashed black;
-}
-
 .blue {
     color: #0060ff;
 }
@@ -66,13 +62,14 @@ a:hover {
     width: 100vw;
     margin: auto;
     background-color: #b4d0e7;
-    height: 92vh;
+    height: 85vh;
 }
 
 .bottom-header-box {
     width: 65vw;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 75px;
+    padding-top: 100px;
 }
 
 .title {
@@ -123,7 +120,6 @@ a:hover {
 
 .mainbox {
     width: 55vw;
-    background-color: lightskyblue;
     min-height: 200px;
     margin: auto;
     margin-top: 150px;
@@ -131,7 +127,7 @@ a:hover {
 
 .mainbox-header-title h2 {
     font-size: 40px;
-    text-indent: 10px;
+    text-indent: 5px;
 }
 
 .paymentchoice {
@@ -139,6 +135,7 @@ a:hover {
 }
 
 .opt1 {
+    padding-left: 5px;
     vertical-align: middle;
 }
 
@@ -183,7 +180,7 @@ a:hover {
 .plan-offer {
     width: 30%;
     height: 900px;
-    background-color: wheat;
+    border: 1px solid lightgray;
 }
 
 .plan-offer span {
@@ -193,10 +190,11 @@ a:hover {
 .type {
     text-align: center;
     padding: 5px 0;
+    border-bottom: 1px solid lightgray;
 }
 
 .plan-part {
-    padding: 25px;
+    padding: 26px;
     
 }
 
@@ -232,6 +230,7 @@ a:hover {
     background-color: white;
     width: 100%;
     margin-top: 50px;
+    border: 1px solid lightgray;
 }
 
 .contactbox-left {
@@ -271,6 +270,7 @@ a:hover {
     padding: 5px 10px;
     display: inline-block;
     color: black;
+    border: 2px solid black;
 }
 
 .card-container {
@@ -288,7 +288,6 @@ a:hover {
 
 .card {
     width: 30%;
-    background-color: blueviolet;
     height: 550px;
 }
 
@@ -299,7 +298,6 @@ a:hover {
 
 .upper-box {
     height: 50%;
-    background-color: red;
 }
 
 .upper-box > img {
@@ -313,7 +311,6 @@ a:hover {
 
 .box-after-cards {
     width: 100%;
-    background-color: orange;
     height: 200px;
     margin-top: 150px;
 }
@@ -401,19 +398,91 @@ a:hover {
 
 .main-footer-box-button {
     background-color: white;
-    padding: 5px 10px;
+    padding: 10px 25px;
     display: inline-block;
     color: black;
 }
 
 .questions {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-color: bisque;
+}
+
+.questions-box {
+    width: 55vw;
+    margin: auto;
+    margin-top: 150px;
+    height: 70%;
+}
+
+.questions-box > h2 {
+    font-size: 40px;
+}
+
+.questions-container {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.questions-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.question {
+    font-size: 15px;
+}
+
+.menu {
+    padding: 30px;
+}
+
+.question-bonus {
+    padding: 30px 0;
+    font-size: 15px;
+    display: none;
 }
 
 .links {
     width: 100vw;
     height: 60vh;
     background-color: black;
+    color: white;    
 }
+
+.links-container {
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.links-box {
+    width: calc(100%/5);
+}
+
+.links-box li {
+    list-style: none;
+}
+
+.links-box li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.links-box li > a:hover {
+    text-decoration: underline;
+}
+
+.question-bonus {
+    display: none;
+    width: 100%;
+}
+
+.questions-line:hover > .question-bonus {
+    display: block;
+}
+
