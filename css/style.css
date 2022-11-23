@@ -32,6 +32,7 @@ a:hover {
 .topbar li {
     padding: 20px 25px;
     display: inline-block;
+    height: 100%;
 }
 
 .topbar-left {
@@ -68,7 +69,7 @@ a:hover {
 .bottom-header-box {
     width: 65vw;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 74px;
     padding-top: 100px;
 }
 
@@ -221,8 +222,15 @@ a:hover {
     color: white;
     width: 100%;
 }
+
 .plan-trial > a {
     color: white;
+}
+
+.plan-box hr {
+    border: 1px solid lightgray;
+    width: 10%;
+    margin-left: 25px;
 }
 
 .contact {
@@ -342,6 +350,12 @@ a:hover {
     padding: 40px;
 }
 
+.sponsor-box-middle hr {
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    width: 20%;
+}
+
 .sponsor-box-middle > img {
     width: 50%;
 }
@@ -405,8 +419,7 @@ a:hover {
 
 .questions {
     width: 100vw;
-    height: 80vh;
-    background-color: bisque;
+    height: 50vh;
 }
 
 .questions-box {
@@ -430,6 +443,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    border-top: 1px solid lightgray;
 }
 
 .question {
@@ -450,7 +464,9 @@ a:hover {
     width: 100vw;
     height: 60vh;
     background-color: black;
-    color: white;    
+    color: white;
+    margin-top: 100px;
+    padding: 50px; 
 }
 
 .links-container {
@@ -485,4 +501,3 @@ a:hover {
 .questions-line:hover > .question-bonus {
     display: block;
 }
-
