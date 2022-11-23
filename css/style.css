@@ -302,6 +302,7 @@ a:hover {
 .card-box {
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .upper-box {
