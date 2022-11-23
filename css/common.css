@@ -11,3 +11,39 @@ body {
 .flexbox {
     display: flex;
 }
+
+.green {
+    background-color: #d1e9cd;
+}
+
+.brown {
+    background-color: #61082b;
+}
+
+.azure {
+    background-color: #0093ce;
+}
+
+.glowred {
+    background-color: #ff1c1c;
+}
+
+.red {
+    background-color: #d5001f;
+}
+
+.lightgray {
+    background-color: #b4d0e7;
+}
+
+.bluette {
+    background-color: #0d2481;
+}
+
+.darkyellow {
+    background-color: #ffd830;
+}
+
+.sortofgray {
+    background-color: #f5f5f5;
+}

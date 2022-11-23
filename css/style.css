@@ -82,12 +82,12 @@ a:hover {
     text-indent: 10px;
 }
 
-.bottom-header-box-left, .img-text-box-left {
+.bottom-header-box-left {
     width: 30%;
     height: 500px;
 }
 
-.bottom-header-box-right, .img-text-box-right {
+.bottom-header-box-right {
     width: 70%;
 }
 
@@ -242,13 +242,35 @@ a:hover {
     width: 30%;
 }
 
-#supermargin {
+.supermargin {
     margin-top: 50px;
 }
 
 .img-text-box {
-    flex-direction: row-reverse;
     margin-top: 100px;
+    height: 500px;
+}
+
+.img-text-box-right {
+    height: 100%;
+    width: 30%;
+}
+
+.img-text-box-left {
+    height: 100%;
+    width: 70%;
+}
+
+
+.img-text-box-left > img {
+    height: 100%;
+}
+
+.img-text-box-button {
+    background-color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    color: black;
 }
 
 .card-container {
@@ -260,14 +282,14 @@ a:hover {
 
 .mainbox-midpage-title {
     width: 100%;
-    height: 50px;
+    font-size: 25px;
+    text-indent: 10px;
 }
 
 .card {
     width: 30%;
     background-color: blueviolet;
     height: 550px;
-
 }
 
 .card-box {
@@ -280,6 +302,10 @@ a:hover {
     background-color: red;
 }
 
+.upper-box > img {
+    width: 100%;
+}
+
 .lower-box {
     height: 50%;
     width: 100%;
@@ -288,26 +314,39 @@ a:hover {
 .box-after-cards {
     width: 100%;
     background-color: orange;
-    height: 500px;
+    height: 200px;
+    margin-top: 150px;
 }
+
+.after-cards-intern-box {
+    width: 60%;
+}
+
+.box-after-cards-title {
+    font-size: 35px;
+}
+
 
 .sponsor-box {
     width: 100vw;
-    height: 60vh;
-    background-color: gray;
+    height: 70vh;
+    margin-top: 100px;
 }
 
 .sponsor-box-left {
     width: calc(100% / 3);
     height: 100%;
-    background-color: blueviolet;
     flex-wrap: wrap;
 }
 
 .sponsor-box-middle {
     width: calc(100% / 3);
     height: 100%;
-    background-color: blueviolet;
+    padding: 40px;
+}
+
+.sponsor-box-middle > img {
+    width: 50%;
 }
 
 .sponsor-box-right {
@@ -320,12 +359,51 @@ a:hover {
 .littlebox {
     width: calc(100% / 2);
     height: calc(100% / 2);
+    position: relative;
+}
+
+.first-img-box {
+    background-color: #a2d39b;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.littlebox  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    filter: invert(1);
 }
 
 .main-footer-box {
     width: 100vw;
-    height: 35vh;
+    height: 45vh;
     background-color: lightblue;
+}
+
+.main-footer-box-container {
+    width: 55vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-footer-box-container-title {
+    font-size: 40px;
+    color: #61082b;
+    width: 50%;
+}
+
+.main-footer-box-button {
+    background-color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    color: black;
 }
 
 .questions {
