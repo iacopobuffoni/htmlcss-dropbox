@@ -1,13 +1,5 @@
-.center {
-    text-align: center;
-}
-
 .blue {
     color: #0060ff;
-}
-
-.aligncenter {
-    text-align: center;
 }
 
 .topbar a {
@@ -75,14 +67,12 @@ a:hover {
 
 .title {
     font-size: 42px;
-    font-weight: bold;
     width: 100%;
     text-indent: 10px;
 }
 
 .bottom-header-box-left {
     width: 30%;
-    height: 500px;
 }
 
 .bottom-header-box-right {
@@ -169,7 +159,6 @@ a:hover {
 
 .mainbox-header {
     background-color: white;
-    height: 50px;
     width: 100%;
 }
 
@@ -180,7 +169,6 @@ a:hover {
 
 .plan-offer {
     width: 30%;
-    height: 900px;
     border: 1px solid lightgray;
 }
 
@@ -255,7 +243,7 @@ a:hover {
 
 .img-text-box {
     margin-top: 100px;
-    height: 500px;
+    height: 60vh;
 }
 
 .img-text-box-right {
@@ -296,7 +284,7 @@ a:hover {
 
 .card {
     width: 30%;
-    height: 550px;
+    height: 60vh;
 }
 
 .card-box {
@@ -320,7 +308,7 @@ a:hover {
 
 .box-after-cards {
     width: 100%;
-    height: 200px;
+    height: 25vh;
     margin-top: 150px;
 }
 
@@ -455,6 +443,10 @@ a:hover {
     padding: 30px;
 }
 
+.menu > i:nth-child(2) {
+    display: none;
+}
+
 .question-bonus {
     padding: 30px 0;
     font-size: 15px;
@@ -475,6 +467,7 @@ a:hover {
     margin: auto;
     display: flex;
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 .links-box {
@@ -502,3 +495,26 @@ a:hover {
 .questions-line:hover > .question-bonus {
     display: block;
 }
+
+.questions-line:hover > .menu > i:nth-child(2) {
+    display: block;
+}
+
+.questions-line:hover > .menu > i:nth-child(1) {
+    display: none;
+}
+
+.bottom-footer {
+    width: 100%;
+    margin-top: 100px;
+    color: lightgray;
+}
+
+.bottom-footer hr {
+    width: 10%;
+}
+
+.bottom-footer span {
+    margin: 0 5px;
+}
+
